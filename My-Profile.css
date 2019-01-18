@@ -1,3 +1,25 @@
+
+img {
+  width: 25%;
+  height: auto;
+}
+
 h1{
- color: blue; 
+ color: white; 
+}
+
+h2 {
+ color: white; 
+}
+
+p {
+ color: white; 
+}
+
+h5{
+ color: white; 
+}
+
+ul{
+ color: white; 
 }
