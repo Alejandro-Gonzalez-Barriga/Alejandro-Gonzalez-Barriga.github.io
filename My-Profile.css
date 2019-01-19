@@ -23,3 +23,9 @@ h5{
 ul{
  color: white; 
 }
+
+#titlePane {
+  background-image: url("images/first-background.jpg");
+  background-size: cover;
+
+}
