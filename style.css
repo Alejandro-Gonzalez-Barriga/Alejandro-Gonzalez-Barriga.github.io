@@ -1,0 +1,226 @@
+......@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+.heading-underline {
+  padding-bottom: 5rem;
+}
+.heading-underline2 {
+  padding-bottom: 3rem;
+}
+
+/*============= Navigation =============*/
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-brand img {
+  height: 4rem;
+}
+.navbar-nav li {
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffc107;
+}
+
+/*============= Landing Page =============*/
+.home-inner {
+  background-image: url(img/headerbg.jpg);
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+  color: #ffc107;
+}
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+  color: #ffc107;
+
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+/*============= End Landing Page =============*/
+
+/*============= Education Section =============*/
+.jumbotron {
+    margin-bottom: 0px;
+ }
+.education h1 {
+  color: #ffc107;
+  margin-bottom: 5;
+}
+
+/*============= End Education Section =============*/
+
+/*============= Skills Section =============*/
+
+.fixed {
+  background-image: url(img/computers.png);
+  z-index: -999;
+}
+.dark {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  color: white;
+  padding: 7rem 2rem;
+}
+.fixed-background h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+}
+.feature {
+  color: #ffc107;
+}
+/*============= End Skills Section =============*/
+
+/*============= projects Section =============*/
+#portfolio .container-fluid {
+  max-width: 1920px;
+}
+
+#portfolio .container-fluid .portfolio-box {
+  position: relative;
+  display: block;
+  vertical-align:bottom
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(255, 193, 7, 0.9);
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1.2rem;
+}
+
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+
+/*============= End Projects Section =============*/
+
+/*============= Interests Section =============*/
+.fixed2 {
+  background-image: url(img/interests.jpg);
+  z-index: -999;
+}
+.dark {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  color: white;
+  padding: 7rem 2rem;
+}
+.fixed-background h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+}
+.feature {
+  color: #ffc107;
+}
+/*============= End Interests Section =============*/
+
+/*============= Contact Section =============*/
+
+footer {
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0rem 2rem;
+  margin-top: 0;
+}
+
+footer a {
+  color: white;
+}
+.fa-facebook-square:hover {
+  color: #ffc107;
+}
+.fa-github-square:hover {
+  color: #ffc107;
+}
+.fa-instagram:hover {
+  color: #ffc107;
+}
+
+
+/*============= End Contact Section =============*/
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
