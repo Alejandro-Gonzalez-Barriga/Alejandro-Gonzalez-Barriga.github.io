@@ -43,7 +43,7 @@ body {
 
 /*============= Landing Page =============*/
 .home-inner {
-  background-image: url(img/ian-dooley-DJ7bWa-Gwks-unsplash.jpg);
+  background-image: url(img/computers.png);
 }
 .caption {
   width: 100%;
@@ -95,7 +95,7 @@ body {
 /*============= Skills Section =============*/
 
 .fixed {
-  background-image: url(img/computers.png);
+  background-image: url(img/bgimgs/computers1.png);
   z-index: -999;
 }
 .dark {
@@ -187,7 +187,7 @@ body {
 
 /*============= Interests Section =============*/
 .fixed2 {
-  background-image: url(img/interests.jpg);
+  background-image: url(img/bgimgs/interests.jpg);
   z-index: -999;
 }
 .dark {
