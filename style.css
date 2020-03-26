@@ -95,7 +95,7 @@ body {
 /*============= Skills Section =============*/
 
 .fixed {
-  background-image: url(img/computers.png);
+  background-image: url(img/bgimgs/computers.png);
   z-index: -999;
 }
 .dark {
