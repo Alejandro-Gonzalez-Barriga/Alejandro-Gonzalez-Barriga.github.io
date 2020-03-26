@@ -43,7 +43,7 @@ body {
 
 /*============= Landing Page =============*/
 .home-inner {
-  background-image: url(img/computers.png);
+  background-image: url(img/bgimgs/computers1.png);
 }
 .caption {
   width: 100%;
@@ -95,7 +95,7 @@ body {
 /*============= Skills Section =============*/
 
 .fixed {
-  background-image: url(img/bgimgs/computers1.png);
+  background-image: url(img/computers.png);
   z-index: -999;
 }
 .dark {
