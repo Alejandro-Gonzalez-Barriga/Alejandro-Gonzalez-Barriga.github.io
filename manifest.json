@@ -3,7 +3,19 @@
   "short_name": "Alex G",
   "start_url": "/index.html",
   "display": "standalone",
-  "theme_color": "#FFFFFF",
-  "background_color": "#FFFFFF",
-  "orientation": "portrait-primary"
+  "theme_color": "#DAA520",
+  "background_color": "#DAA520",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "img/mimoji-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/mimoji-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
 }
