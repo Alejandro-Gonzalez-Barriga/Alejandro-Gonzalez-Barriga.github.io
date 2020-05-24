@@ -1,5 +1,5 @@
 const staticCacheName = 'site-static';
-const assets = ['/', '/index.html', '/js/app.js'];
+const assets = ['/', '/index.html', '/js/app.js', ''];
 
 //install sw
 self.addEventListener('install', (evt) => {
