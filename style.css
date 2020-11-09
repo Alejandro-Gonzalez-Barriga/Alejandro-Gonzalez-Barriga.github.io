@@ -5,7 +5,7 @@ body {
   color: #505962;
   font-size: 1.3rem;
   font-family: 'Oswald', sans-serif;
-  background: #f9f9f9;
+  background: #000000;
 }
 .heading-underline {
   padding-bottom: 5rem;
@@ -83,8 +83,44 @@ body {
   color: #ffc107;
   border-color: #ffc107;
 }
+
+.arrow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #ffc107;
+    border-right: 5px solid #ffc107;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 4s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
 #fadeHome {
-    margin-top: 25px;
+    margin-top: 210px;
     text-align: center;
     
 }
@@ -104,51 +140,108 @@ body {
 
 /*============= Experience Section =============*/
 
-.container {
-  max-width: 100%;
-  margin: auto;
-  overflow: auto;
-  padding-top: 6rem;
+#experience {
+  background-color: black;
 }
-section { 
-  display: block;
+.wrap2
+{
+  
+  margin:50px auto 0 auto;
+  width:100%;
+  display:flex;
+  align-items:space-around;
+  max-width:1200px;
 }
-#cardImg {
-  width: 100%;
+.tile
+{
+  width:380px;
+  height:380px;
+  margin:10px;
+  background-color:#ffc107;
+  display:inline-block;
+  background-size:cover;
+  position:relative;
+  cursor:pointer;
+  transition: all 0.4s ease-out;
+  box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+  overflow:hidden;
+  color:white;
+  font-family:'Roboto';
+  
+}
+.tile img
+{
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:0;
+  transition: all 0.4s ease-out;
+}
+.tile .text
+{
+/*   z-index:99; */
+  position:absolute;
+  padding:30px;
+  height:calc(100% - 60px);
+}
+.tile h1
+{
+ 
+  font-weight:300;
+  margin:0;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+.tile h2
+{
+  font-weight:100;
+  margin:20px 0 0 0;
+  font-style:italic;
+   transform: translateX(200px);
+}
+.tile p
+{
+  font-weight:300;
+  margin:20px 0 0 0;
+  line-height: 25px;
+/*   opacity:0; */
+  transform: translateX(-200px);
+  transition-delay: 0.2s;
+}
+.animate-text
+{
+  opacity:0;
+  transition: all 0.6s ease-in-out;
+}
+.tile:hover
+{
+/*   background-color:#99aeff; */
+box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+  transform:scale(1.05);
+}
+.tile:hover img
+{
+  opacity: 0.2;
+}
+.tile:hover .animate-text
+{
+  transform:translateX(0);
+  opacity:1;
 }
 
-.card {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
-  background: #f1f1f1;
-  margin-bottom: 2rem;
-}
-
-.card h3 {
-  margin-bottom: 2rem;
-}
-
-.card img {
-  height: 400px;
-}
-
-.card > div {
-  padding: 2rem;
-}
-
-.card:nth-child(even) img {
-  order: 2;
-}
-
-@media(max-width:600px) {
-  .card {
-    display: block;
+@media (max-width: 1000px) {
+  .wrap2 {
+   flex-direction: column;
+    width:400px;
   }
 }
 
-
 /*============= End Experience Section =============*/
+
+
+
+
 
 /*============= Education Section =============*/
 .jumbotron {
@@ -185,6 +278,50 @@ section {
   font-size: 4rem;
 }
 /*============= End Skills Section =============*/
+
+.container {
+  max-width: 80%;
+  margin: auto;
+  overflow: auto;
+  padding-top: 6rem;
+}
+section { 
+  display: block;
+}
+#cardImg {
+  width: 100%;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background: #f1f1f1;
+  margin-bottom: 2rem;
+}
+
+.card h3 {
+  margin-bottom: 2rem;
+}
+
+.card img {
+  height: 350px;
+}
+
+.card > div {
+  padding: 2rem;
+}
+
+.card:nth-child(even) img {
+  order: 2;
+}
+
+@media(max-width:600px) {
+  .card {
+    display: block;
+  }
+}
+
 
 /*============= projects Section =============*/
 #portfolio .container-fluid {
