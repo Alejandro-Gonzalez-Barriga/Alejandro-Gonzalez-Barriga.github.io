@@ -1,10 +1,11 @@
-...... @import
-  url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   color: #505962;
+  font-size: 1.3rem;
+  font-family: 'Oswald', sans-serif;
+  background: #f9f9f9;
 }
 .heading-underline {
   padding-bottom: 5rem;
@@ -43,8 +44,14 @@ body {
 
 /*============= Landing Page =============*/
 .home-inner {
-  background-image: url(img/bgimgs/computers1.png);
+  background-image: url(img/bgimgs/android.png);
 }
+
+.noHover{
+    color: #ffc107;
+    pointer-events: none;
+}
+
 .caption {
   width: 100%;
   max-width: 100%;
@@ -76,8 +83,72 @@ body {
   color: #ffc107;
   border-color: #ffc107;
 }
+#fadeHome {
+    margin-top: 25px;
+    text-align: center;
+    
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+
 
 /*============= End Landing Page =============*/
+
+/*============= Experience Section =============*/
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  overflow: auto;
+  padding-top: 6rem;
+}
+section { 
+  display: block;
+}
+#cardImg {
+  width: 100%;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background: #f1f1f1;
+  margin-bottom: 2rem;
+}
+
+.card h3 {
+  margin-bottom: 2rem;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card > div {
+  padding: 2rem;
+}
+
+.card:nth-child(even) img {
+  order: 2;
+}
+
+@media(max-width:600px) {
+  .card {
+    display: block;
+  }
+}
+
+
+/*============= End Experience Section =============*/
 
 /*============= Education Section =============*/
 .jumbotron {
