@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[2493,["592","static/chunks/c15bf2b0-f76613f9ef9aefe2.js","630","static/chunks/630-d0cb77b45d167f06.js","974","static/chunks/app/page-7b32f9708fd5d95a.js"],"default"]
-3:I[484,[],"OutletBoundary"]
+2:I[19242,["https://alejandro-gonzalez-barriga.github.io/_next/static/chunks/0dbhjjzl8qfwv.js","https://alejandro-gonzalez-barriga.github.io/_next/static/chunks/09z4686d9wxsj.js"],"default"]
+3:I[97367,["https://alejandro-gonzalez-barriga.github.io/_next/static/chunks/0dbhjjzl8qfwv.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"6RiS8wodvK6babbr_VY0H"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"https://alejandro-gonzalez-barriga.github.io/_next/static/chunks/09z4686d9wxsj.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"nN8iCF_MNLdnHYXslUVXY"}
 5:null

@@ -1,4 +1,4 @@
-:HL["https://alejandro-gonzalez-barriga.github.io/_next/static/media/4cf2300e9c8272f7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["https://alejandro-gonzalez-barriga.github.io/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["https://alejandro-gonzalez-barriga.github.io/_next/static/css/3701f7a3984f24d0.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"6RiS8wodvK6babbr_VY0H"}
+:HL["https://alejandro-gonzalez-barriga.github.io/_next/static/chunks/154252ie~qmli.css","style"]
+:HL["https://alejandro-gonzalez-barriga.github.io/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://alejandro-gonzalez-barriga.github.io/_next/static/media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"nN8iCF_MNLdnHYXslUVXY"}
