@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[19242,["https://alejandro-gonzalez-barriga.github.io/_next/static/chunks/0dbhjjzl8qfwv.js","https://alejandro-gonzalez-barriga.github.io/_next/static/chunks/09z4686d9wxsj.js"],"default"]
+3:I[97367,["https://alejandro-gonzalez-barriga.github.io/_next/static/chunks/0dbhjjzl8qfwv.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"https://alejandro-gonzalez-barriga.github.io/_next/static/chunks/09z4686d9wxsj.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"rPqv76lOYfnCiRfeNa1Uq"}
+5:null
